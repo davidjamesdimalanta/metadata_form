@@ -16,12 +16,12 @@ export default function MetadataForm() {
         telephone: false,
       },
     robots: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
       nocache: false,
       googleBot: {
-        index: false,
-        follow: false,
+        index: true,
+        follow: true,
         noimageindex: false,
         maxVideoPreview: '-1',
         maxImagePreview: 'large',
