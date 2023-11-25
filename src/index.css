@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  background-color: black;
+}
+
+/* Base styles for the form */
+.form-container {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the input fields */
+input[type="text"], input[type="checkbox"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style for the labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+  background-color: gray;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: black;
+}
+
+/* Focus effect for input fields */
+input[type="text"]:focus, input[type="checkbox"]:focus {
+  outline: none;
+  border-color: #0070f3;
+}
+
+.terminal-container {
+  background-color: black;
+  color: limegreen;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  margin-top: 20px;
+  white-space: pre-wrap; /* Keeps the format of JSON.stringify */
+}
