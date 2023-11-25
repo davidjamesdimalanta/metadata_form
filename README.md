@@ -16,7 +16,7 @@ This React-based web application features a dynamic form for handling metadata. 
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://your-repository-url.git
+git clone https://github.com/davidjamesdimalanta/metadata_form.git
 cd react-metadata-form
 npm install
 ```
